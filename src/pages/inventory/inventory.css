@@ -1,0 +1,17 @@
+.inventory .reportbar {
+  flex: 5;
+}
+.inventory .listtable {
+  position: relative;
+}
+.inventory .listtable .homebutton {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1;
+}/*# sourceMappingURL=inventory.css.map */

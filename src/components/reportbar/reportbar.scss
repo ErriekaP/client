@@ -1,0 +1,70 @@
+.reportbar{
+    background-color: #2196F3;
+    display: flex;
+    height: 80px;
+    border-bottom: 0.5px solid lightgray;
+    align-items: center;
+    font-size: 14px;
+
+    .wrapper{
+        width: 100%;
+        padding: 20px;;
+        display: flex;
+        justify-content: space-between;
+
+        .icons{
+            padding: 10px;
+            margin-right: 20px;
+
+            ul{
+                display: flex;
+                list-style-type: none;
+                height: 100%;
+
+                li{
+                    cursor: pointer;
+                    padding: 0%;
+                    margin: 10px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    color: white;
+
+                    p{
+                        padding-top: 5px;
+                    }
+
+                    &:hover{
+                        background-color: #2881ca;
+                    }
+                }
+            }
+        }
+
+        .user{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+
+            .image{
+                display: flex;
+                width: 50px;
+                height: 50px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            p{
+                cursor: pointer;
+                margin-right: 10px;
+                color: white;
+            }
+
+            .avatar{
+                border-radius: 50%;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.inventory{
+    // display: flex;
+
+    .reportbar{
+        flex: 5;
+    }
+    .listtable{
+        position: relative;
+        .homebutton{
+            height: max-content;
+            width: max-content;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 1;
+        }
+    }
+
+}

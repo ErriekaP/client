@@ -1,0 +1,127 @@
+.sidebar{
+    flex: 1;
+    background-color: white;
+    min-height: 100vh;
+    border-right: 0.5px solid lightgray;
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        .item{
+            display: flex;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+
+            .avatar{
+                display: flex;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            
+            }
+        }
+
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(0, 160, 255);
+            padding-left: 25px;
+            
+        }
+    }
+
+    .hr{
+        height: 0px;
+        border: 0.5px solid lightgray;
+    }
+
+    .center{
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+
+        ul{
+            list-style: none;
+            padding: 0%;
+            margin: 0%;
+
+            .title{
+                font-size: 18px;
+                font-weight: 600;
+                color: gray;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+
+            li{
+                display: flex;
+                align-items: center;
+                padding: 4px;
+                cursor: pointer;
+                position: relative;
+
+                &:hover{
+                    background-color:  rgb(146, 215, 255);
+                    .icon{
+                        color: rgb(0, 160, 255);
+                    }
+                }
+
+                .icon{
+                    font-size: 18px;
+                    color:  rgb(70, 78, 83);
+                }
+
+                p{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #888;
+                    margin-left: 10px;
+                }
+                
+                .counter{
+                    width: 10px;
+                    height: 10px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: red;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+        
+    }
+
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid rgb(0, 160, 255);
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
+            }
+        }
+    }
+
+}

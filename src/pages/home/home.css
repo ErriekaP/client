@@ -1,0 +1,21 @@
+.home {
+  display: flex;
+}
+.home .homeContainer {
+  flex: 5;
+}
+.home .homeContainer button {
+  height: 150px;
+  width: 250px;
+  background-color: rgb(0, 160, 255);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  grid-gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .homeContainer button:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=home.css.map */

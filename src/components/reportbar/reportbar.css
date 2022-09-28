@@ -1,0 +1,60 @@
+.reportbar {
+  background-color: #2196F3;
+  display: flex;
+  height: 80px;
+  border-bottom: 0.5px solid lightgray;
+  align-items: center;
+  font-size: 14px;
+}
+.reportbar .wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.reportbar .wrapper .icons {
+  padding: 10px;
+  margin-right: 20px;
+}
+.reportbar .wrapper .icons ul {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+}
+.reportbar .wrapper .icons ul li {
+  cursor: pointer;
+  padding: 0%;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.reportbar .wrapper .icons ul li p {
+  padding-top: 5px;
+}
+.reportbar .wrapper .icons ul li:hover {
+  background-color: #2881ca;
+}
+.reportbar .wrapper .user {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.reportbar .wrapper .user .image {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.reportbar .wrapper .user p {
+  cursor: pointer;
+  margin-right: 10px;
+  color: white;
+}
+.reportbar .wrapper .user .avatar {
+  border-radius: 50%;
+}/*# sourceMappingURL=reportbar.css.map */
